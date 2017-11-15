@@ -1,0 +1,14 @@
+language: ruby
+rvm:
+  - "2.3.0"
+
+sudo: required
+dist: trusty
+
+before_install:
+  - gem install bundler -v 1.13.6
+
+notifications:
+  email: false
+  slack:
+    secure: "MtuWuF6BvB3FU306LhGY9RJ8z6gMhVwh4FnmC0BBAb1ioig+f2t3fp0/4NGHxeORzHnXSKHCux+rtd/DhCQ10PAVSYKHGBvilWl1jrLLHyJgK8UhHYWA48GabE39427IkJGRHLi982cqGNNAWAkBETS+FqXy5V07DQHSWYhJ2YXjwaBDFWo1MM1RVCoGw5T0l1ftRArPP66QvDtC1OgH0TiPdLithnechOcpu7ZhtbYbqMY0D2vYDJDNOJaCZAePYoZett/eYLhz61gVo8Tvxg6IxhQkKc/ucixQj5+fU3uY1P3xDzN6GCtEjqpjZuYMqYpN8mdI5p+eD+BjfFPPlVDYLu8e0g807JYmC85U2w9YoQcG4pcAUt5cCQEBylbgqXkvnoAatDQI8mxOnvs/qWurAtGtATcctqh5gwJJfWR1wNhc2jBJCHgbx6wP+2X/bXGd9ny/LJ0/PR7CejOtaB6vvQQNCa6EKYUsb8stStKgbrcBXSUfyl53uSBwS8JZ5C/bD9w+6OpnTpzYff1nBPaFkOyN7CevSw4bQlX1WI7D20bxOiR5WYzakFMs7eiJjTYqWoZ6KsNkgawuirv2kvvuJS5b8sfB7VwXBPrsQty9PXgWUJHY2tiGO6TgZSVgI5emcPayTZB24XYRkndX1nVwvhUk8IyMZ+s/ySIYHI4="
